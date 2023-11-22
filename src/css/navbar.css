@@ -1,0 +1,10 @@
+.navbar{
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
