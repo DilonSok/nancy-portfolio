@@ -1,7 +1,6 @@
 import React from "react";
-import '../css/cvPage.css'
-
-function cvPage(){
+import '../css/sidebar.css';
+function Sidebar(){
     return (
         <div>
 
@@ -9,4 +8,4 @@ function cvPage(){
     );
 }
 
-export default cvPage;
+export default Sidebar;

@@ -3,8 +3,31 @@
   position: fixed;
   width: 100%;
   height: 80px;
+  z-index: 100;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.navbar-container{
+  display:flex;
+  height:100%;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  z-index: 100;
+  align-content: center;
+  justify-items: center;
+  justify-content: left;
+}
+
+.navbar-links-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-links-container a{
+  padding-left: 25px;
+}
+
+.left-section{
+  display: flex;
 }
