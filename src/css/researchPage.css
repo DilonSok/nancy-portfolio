@@ -1,0 +1,39 @@
+.researchPage-outer-container {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25%;
+}
+
+.researchPage-inner-container {
+    width: 100%;
+}
+
+.research-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.research-element-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 35px;
+}
+
+.research-element img {
+    max-width: 192px;
+    max-height: 192px;
+}
+
+
+.research-element-info *{
+    padding-bottom: 10px;
+}
+
+.research-element-title{
+    font-weight: bold;
+    font-size: 17px;
+}

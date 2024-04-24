@@ -1,14 +1,14 @@
-.publications-outer-container{
+.presentations-outer-container{
     display: flex;
     margin-left: 25px;
     margin-right: 25%;
 }
 
-.publications-list-container li{
+.presentations-list-container li{
     list-style-type: decimal;
     padding-bottom: 15px;
 }
 
-.publication-info{
+.presentation-info{
     margin-bottom: 5px;
 }

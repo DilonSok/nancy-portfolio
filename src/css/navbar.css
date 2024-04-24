@@ -8,14 +8,19 @@
   margin-right: 15px;
 }
 
+.home-button{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .navbar-container{
   display:flex;
   height:100%;
   flex-direction: row;
   align-items: center;
-  align-content: center;
   justify-items: center;
-  justify-content: left;
+  border-bottom: solid 1px gray;
+  background-color: black;
 }
 
 .navbar-links-container{
@@ -25,9 +30,18 @@
 }
 
 .navbar-links-container a{
-  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .left-section{
   display: flex;
+  justify-content: center;
+  max-width: 365px;
+  width: 100%;
+}
+
+.right-section{
+  display:flex;
+  width: 50%;
+  margin-left: 15px;
 }

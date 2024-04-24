@@ -4,7 +4,7 @@ import Navbar from './components/navbar.js';
 import Sidebar from './components/sidebar.js';
 import HomePage from './components/homePage.js';
 import ResearchPage from './components/researchPage.js';
-import TalksPage from './components/talksPage.js';
+import PresentationsPage from './components/presentationsPage.js';
 import PublicationsPage from './components/publicationsPage.js';
 import cvPage from './components/cvPage.js';
 
@@ -19,7 +19,7 @@ function App() {
             <Route exact path="/home" Component={HomePage} ></Route>
             <Route path="/research" Component={ResearchPage} ></Route>
             <Route path="/publications" Component={PublicationsPage} ></Route>
-            <Route path="/talks" Component={TalksPage} ></Route>
+            <Route path="/presentations" Component={PresentationsPage} ></Route>
             <Route path="/cv" Component={cvPage} ></Route>
           </Routes>
         </div>
