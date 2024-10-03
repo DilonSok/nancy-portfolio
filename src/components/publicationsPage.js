@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/publicationsPage.css';
+import '../css/PublicationsPage.css';
 function PublicationsPage() {
     return (
         <div className="publications-outer-container">
